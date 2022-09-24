@@ -1,0 +1,711 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e1e1e1;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #4d636f;
+    color: white;
+    width: 100%;
+    top: 0;
+}
+
+.photo {
+    cursor: pointer;
+    float: right;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.home1 {
+    cursor: pointer;
+}
+
+.logo {
+    background-color: #3a4b53;
+}
+
+.icons {
+    position: relative;
+    padding: 17px;
+}
+
+.icons:hover {
+    background-color: white;
+    color: black;
+}
+
+.bellIcon {
+    border-radius: 50%;
+    background-color: green;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+.select {
+    position: absolute;
+    top: 33px;
+    left: -40px;
+}
+
+.menus {
+    width: 371px;
+}
+
+.menu {
+    width: 100%;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-family: none;
+}
+
+.menu:hover {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.left {
+    width: 25%;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.lefts {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+}
+
+.pro {
+    font-size: 20px;
+}
+
+.image {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.img {
+    width: 6%;
+}
+
+.pro1 {
+    width: 90%;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.leftt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.btnss {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #7d97a5;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
+.btnss:hover {
+    background-color: gray;
+    color: black;
+}
+
+.btnss1 {
+    width: 8%;
+    padding-right: 30px;
+}
+
+.text {
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+.imagess {
+    width: 100%;
+    background-color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.imagess1 {
+    width: 40%;
+    margin: 5px;
+}
+
+.left1 {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.left2 {
+    font-size: 20px;
+}
+
+.left3 {
+    display: inline-block;
+    font-size: 13px;
+    background-color: #303e45;
+    color: white;
+    padding: 2px 5px;
+}
+
+.left4 {
+    display: inline-block;
+    font-size: 13px;
+    padding: 2px 5px;
+    margin-top: 5px;
+}
+
+.W {
+    background-color: #3a4b53;
+    color: white;
+}
+
+.L {
+    background-color: #435761;
+    color: white;
+}
+
+.G {
+    background-color: #4d636f;
+    color: white;
+}
+
+.F {
+    background-color: #57707d;
+    color: white;
+}
+
+.Ga {
+    background-color: #607d8b;
+    color: white;
+}
+
+.Fr {
+    background-color: #7d97a5;
+}
+
+.Fo {
+    background-color: #9eb1bb;
+    color: black;
+}
+
+.D {
+    background-color: #becbd2;
+    color: black;
+}
+
+.A {
+    background-color: #dfe5e8;
+    color: black;
+}
+
+.p {
+    background-color: #f5f7f8;
+    color: black;
+}
+
+.alert {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #9eb1bb;
+    padding: 10px;
+}
+
+.closebtn:hover {
+    background-color: #607d8b;
+}
+
+.closebtn {
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.pro4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pro5 {
+    font-size: 20px;
+}
+
+.centers {
+    width: 50%;
+    margin: 20px;
+}
+
+.center1 {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pro2 {
+    color: gray;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4d636f;
+    color: white;
+    border: none;
+}
+
+.icon {
+    padding: 0;
+    margin: 0;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: black;
+}
+
+.cen {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.center2 {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.photo1 {
+    width: 8%;
+    border-radius: 50%;
+    float: left;
+}
+
+.span1 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.span2 {
+    float: right;
+    color: gray;
+}
+
+.photo2 {
+    width: 49%;
+}
+
+.btnn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4d636f;
+    color: white;
+    border: none;
+}
+
+.btnn:hover {
+    background-color: gray;
+    color: black;
+}
+
+.icon1 {
+    padding-right: 5px;
+}
+
+.center3 {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.center4 {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.photo3 {
+    width: 100%;
+}
+
+.rights {
+    width: 15%;
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.right {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.span {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.spann {
+    font-weight: bold;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(223, 229, 232);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn1:hover {
+    background-color: gray;
+}
+
+.right1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    width: 50%;
+}
+
+.spannn {
+    display: block;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn2 {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+.none {
+    display: none;
+}
+
+.btn3 {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.btn2:hover {
+    background-color: rgb(223, 229, 232);
+    color: rgb(87, 87, 87);
+    ;
+}
+
+.btn3:hover {
+    background-color: rgb(223, 229, 232);
+    color: rgb(87, 87, 87);
+}
+
+.right2 {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.right3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 40px;
+}
+
+.footer1 {
+    background-color: #3a4b53;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+    margin: 0;
+}
+
+.footer2 {
+    background-color: #303e45;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+    margin: 0;
+}
+
+.link {
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .navs {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left {
+        width: 95%;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .imagess {
+        width: 100%;
+        background-color: white;
+        padding: 0;
+        text-align: center;
+    }
+
+    .posision {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .imagess1 {
+        width: 100%;
+        padding: 5px 30px;
+        margin: 0;
+    }
+
+    .left1 {
+        display: none;
+    }
+
+    .alert {
+        display: none;
+    }
+
+    .centers {
+        width: 87%;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .center1 {
+        width: 100%;
+    }
+
+    .center2 {
+        width: 100%;
+    }
+
+    .photo1 {
+        width: 10%;
+        margin: 3px;
+    }
+
+    .span1 {
+        display: inline-block;
+        font-size: 20px;
+        padding: 0;
+        margin: 15px;
+    }
+
+    .photo2 {
+        width: 100%;
+    }
+
+    .btnn {
+        margin-top: 10px;
+    }
+
+    .center3 {
+        width: 100%;
+    }
+
+    .center4 {
+        width: 100%;
+    }
+
+    .photo3 {
+        width: 100%;
+    }
+
+    .rights {
+        width: 95%;
+        margin: 0;
+    }
+
+    .right {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .btn1 {
+        width: 100%;
+    }
+
+    .right1 {
+        width: 100%;
+    }
+
+    .img2 {
+        width: 60%;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn3 {
+        width: 100%;
+    }
+
+    .right3 {
+        margin-bottom: 20px;
+    }
+
+    .nones {
+        display: block;
+    }
+
+    .lists {
+        list-style: none;
+        padding: 0 15px;
+    }
+
+    .list {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .list:hover {
+        background-color: gray;
+        color: black;
+    }
+
+    .submenu {
+        font-size: 20px;
+        float: right;
+        margin-top: -60px;
+        padding: 20px;
+    }
+
+    .submenu:hover {
+        background-color: white;
+        color: black;
+    }
+}
